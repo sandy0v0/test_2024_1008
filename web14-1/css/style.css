@@ -10,6 +10,8 @@ header {
 
     margin: auto;
     border: 1px solid black;
+    border-bottom: 0;
+
 }
 
 .container {
@@ -35,6 +37,7 @@ aside {
     height: calc(100% - 25px);
     background-color: lightgoldenrodyellow;
     border: 1px solid black;
+    border-right: 0;
 }
 
 .aside-footer {
@@ -42,6 +45,8 @@ aside {
     height: 25px;
     background-color: lightgrey;
     border: 1px solid black;
+    border-top: 0;
+    border-right: 0;
 }
 
 main {
@@ -55,6 +60,7 @@ main {
     height: 29px;
     background-color: lightseagreen;
     border: 1px solid black;
+    border-bottom: 0;
 
 }
 
@@ -72,4 +78,5 @@ footer {
 
     margin: auto;
     border: 1px solid black;
+    border-top: 0;
 }
